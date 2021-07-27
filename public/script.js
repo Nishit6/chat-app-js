@@ -1,8 +1,7 @@
 const socket = io();
 
 
-$('#chat').hide();
-
+$('#chat').hide()
 
 
 

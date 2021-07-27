@@ -1,3 +1,54 @@
 body{
     background-color: rgb(190, 26, 26);
 }
+
+#login{
+  margin-left: 20px;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+#chat{
+    margin: 50px auto;
+ 
+    width: 300px;
+}
+
+#send{
+    
+    font-size: 0.8rem;
+}
+
+#list{
+    list-style: none;
+     text-align: center;
+      color: white;
+      
+  }
+  li{
+  
+    margin: 50px auto;
+  
+    box-shadow: 2px 3px 4px rgb(128, 0, 0);
+    padding-top: 3px;
+  }
+ li:nth-last-of-type(odd){
+    background-color:rgb(78, 78, 78);
+  }
+  li:nth-last-of-type(even){
+    background-color: rgb(172, 171, 171);
+  }
+  strong{
+    color:gold;
+  }
+  nav{
+    margin-top: -25px;
+  }
+
+  #msg{
+    width: 300px;
+    
+    height: 30px;
+    text-align: center;
+    margin-left: -30px;
+  }
